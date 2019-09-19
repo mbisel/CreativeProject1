@@ -1,0 +1,85 @@
+h1,
+h2,
+.navbar-brand,
+.navbar-nav a {
+  font-weight: 600;
+  color: #5B8475;
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+h1.bold {
+  font-weight: 700;
+  color:#5B8475;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url("CP1images/homepage.jpg");
+
+  /* Full height */
+  height: 75%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*div.gallery:hover {*/
+/*  border: 1px solid #777;*/
+/*}*/
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #5B8475;
+   color: white;
+   text-align: left;
+}
+
