@@ -10,10 +10,13 @@ h2,
 
 h1.bold {
   font-weight: 700;
-  color:#5B8475;
+  color:#D5896F;
   font-family: Verdana, Geneva, sans-serif;
 }
-
+h1.large{
+  font-stretch: ultra-expanded;
+  color:#D5896F;
+}
 body, html {
   height: 100%;
 }
@@ -29,10 +32,18 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.bg2 {
+  /* The image used */
+  background-image: url("CP1images/reviews.jpg");
 
-/*div.gallery:hover {*/
-/*  border: 1px solid #777;*/
-/*}*/
+  /* Full height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 div.gallery img {
   width: 100%;
